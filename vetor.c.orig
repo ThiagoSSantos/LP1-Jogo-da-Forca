@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	char c = 'A';
+	char s1[100] "A";// A, 0000 0000
+	char s2[100] = {  'A', '\0'  }; //A, 0000 0000
+	printf("%c\n", c);
+	printf("%c\n", s1);
+	printf("%c\n", s2);
+	
+	return 0;
+}
